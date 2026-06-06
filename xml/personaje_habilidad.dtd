@@ -1,0 +1,8 @@
+<!ELEMENT personajes_habilidades (personaje_habilidad+)>
+
+<!ELEMENT personaje_habilidad EMPTY>
+
+<!ATTLIST personaje_habilidad
+    idPersonaje CDATA #REQUIRED
+    idHabilidad CDATA #REQUIRED
+>

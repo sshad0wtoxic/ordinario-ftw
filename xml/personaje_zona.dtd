@@ -1,0 +1,8 @@
+<!ELEMENT personajes_zonas (personaje_zona+)>
+
+<!ELEMENT personaje_zona EMPTY>
+
+<!ATTLIST personaje_zona
+    idPersonaje CDATA #REQUIRED
+    idZona CDATA #REQUIRED
+>

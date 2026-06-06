@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE personajes SYSTEM "personajes.dtd">
+
+<personajes>
+
+    <personaje id="p01">
+        <nombre>Sonic the Hedgehog</nombre>
+        <especie>Erizo</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Sonic the Hedgehog (1991)</juegoDebut>
+        <velocidad>100</velocidad>
+        <fuerza>80</fuerza>
+        <inteligencia>75</inteligencia>
+        <descripcion>El erizo más rápido del mundo y principal héroe de la franquicia Sonic.</descripcion>
+        <imagen>img/personajes/sonic.png</imagen>
+    </personaje>
+
+    <personaje id="p02">
+        <nombre>Miles "Tails" Prower</nombre>
+        <especie>Zorro</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Sonic the Hedgehog 2 (1992)</juegoDebut>
+        <velocidad>85</velocidad>
+        <fuerza>60</fuerza>
+        <inteligencia>100</inteligencia>
+        <descripcion>Genio mecánico y mejor amigo de Sonic, capaz de volar usando sus dos colas.</descripcion>
+        <imagen>img/personajes/tails.png</imagen>
+    </personaje>
+
+    <personaje id="p03">
+        <nombre>Knuckles the Echidna</nombre>
+        <especie>Equidna</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Sonic the Hedgehog 3 &amp; Knuckles (1994)</juegoDebut>
+        <velocidad>75</velocidad>
+        <fuerza>100</fuerza>
+        <inteligencia>65</inteligencia>
+        <descripcion>Guardián de la Master Emerald y protector de Angel Island.</descripcion>
+        <imagen>img/personajes/knuckles.png</imagen>
+    </personaje>
+
+    <personaje id="p04">
+        <nombre>Amy Rose</nombre>
+        <especie>Erizo</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Femenino</genero>
+        <juegoDebut>Sonic CD (1993)</juegoDebut>
+        <velocidad>75</velocidad>
+        <fuerza>85</fuerza>
+        <inteligencia>70</inteligencia>
+        <descripcion>Heroína optimista que combate usando su poderoso martillo Piko Piko.</descripcion>
+        <imagen>img/personajes/amy.png</imagen>
+    </personaje>
+
+    <personaje id="p05">
+        <nombre>Cream the Rabbit</nombre>
+        <especie>Conejo</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Femenino</genero>
+        <juegoDebut>Sonic Advance 2 (2002)</juegoDebut>
+        <velocidad>65</velocidad>
+        <fuerza>45</fuerza>
+        <inteligencia>75</inteligencia>
+        <descripcion>Coneja educada y amable que siempre está acompañada por Cheese, su Chao.</descripcion>
+        <imagen>img/personajes/cream.png</imagen>
+    </personaje>
+
+    <personaje id="p06">
+        <nombre>Espio the Chameleon</nombre>
+        <especie>Camaleón</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Knuckles' Chaotix (1995)</juegoDebut>
+        <velocidad>80</velocidad>
+        <fuerza>70</fuerza>
+        <inteligencia>85</inteligencia>
+        <descripcion>Ninja del equipo Chaotix especializado en sigilo y espionaje.</descripcion>
+        <imagen>img/personajes/espio.png</imagen>
+    </personaje>
+
+    <personaje id="p07">
+        <nombre>Vector the Crocodile</nombre>
+        <especie>Cocodrilo</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Knuckles' Chaotix (1995)</juegoDebut>
+        <velocidad>60</velocidad>
+        <fuerza>95</fuerza>
+        <inteligencia>70</inteligencia>
+        <descripcion>Líder de la Agencia de Detectives Chaotix y experto en investigaciones.</descripcion>
+        <imagen>img/personajes/vector.png</imagen>
+    </personaje>
+
+    <personaje id="p08">
+        <nombre>Charmy Bee</nombre>
+        <especie>Abeja</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Knuckles' Chaotix (1995)</juegoDebut>
+        <velocidad>75</velocidad>
+        <fuerza>40</fuerza>
+        <inteligencia>60</inteligencia>
+        <descripcion>Miembro más joven de los Chaotix, siempre lleno de energía.</descripcion>
+        <imagen>img/personajes/charmy.png</imagen>
+    </personaje>
+
+    <personaje id="p09">
+        <nombre>Big the Cat</nombre>
+        <especie>Gato</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Masculino</genero>
+        <juegoDebut>Sonic Adventure (1998)</juegoDebut>
+        <velocidad>40</velocidad>
+        <fuerza>95</fuerza>
+        <inteligencia>50</inteligencia>
+        <descripcion>Gato gigante y tranquilo cuya principal preocupación es encontrar a Froggy.</descripcion>
+        <imagen>img/personajes/big.png</imagen>
+    </personaje>
+
+    <personaje id="p10">
+        <nombre>Blaze the Cat</nombre>
+        <especie>Gato</especie>
+        <alineacion>Heroe</alineacion>
+        <genero>Femenino</genero>
+        <juegoDebut>Sonic Rush (2005)</juegoDebut>
+        <velocidad>90</velocidad>
+        <fuerza>80</fuerza>
+        <inteligencia>85</inteligencia>
+        <descripcion>Princesa de la Dimensión Sol y guardiana de las Sol Emeralds.</descripcion>
+        <imagen>img/personajes/blaze.png</imagen>
+    </personaje>
+<personaje id="p11">
+    <nombre>Silver the Hedgehog</nombre>
+    <especie>Erizo</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic the Hedgehog (2006)</juegoDebut>
+    <velocidad>85</velocidad>
+    <fuerza>75</fuerza>
+    <inteligencia>85</inteligencia>
+    <descripcion>Erizo proveniente de un futuro devastado que utiliza poderosas habilidades telequinéticas.</descripcion>
+    <imagen>img/personajes/silver.png</imagen>
+</personaje>
+
+<personaje id="p12">
+    <nombre>Tikal the Echidna</nombre>
+    <especie>Equidna</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Adventure (1998)</juegoDebut>
+    <velocidad>60</velocidad>
+    <fuerza>50</fuerza>
+    <inteligencia>90</inteligencia>
+    <descripcion>Princesa de los antiguos equidnas que intentó detener la tragedia causada por Chaos.</descripcion>
+    <imagen>img/personajes/tikal.png</imagen>
+</personaje>
+
+<personaje id="p13">
+    <nombre>Mighty the Armadillo</nombre>
+    <especie>Armadillo</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>SegaSonic the Hedgehog (1993)</juegoDebut>
+    <velocidad>80</velocidad>
+    <fuerza>90</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Armadillo de gran corazón y extraordinaria resistencia física.</descripcion>
+    <imagen>img/personajes/mighty.png</imagen>
+</personaje>
+
+<personaje id="p14">
+    <nombre>Ray the Flying Squirrel</nombre>
+    <especie>Ardilla voladora</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>SegaSonic the Hedgehog (1993)</juegoDebut>
+    <velocidad>85</velocidad>
+    <fuerza>55</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Amigo de Mighty capaz de planear largas distancias gracias a sus membranas.</descripcion>
+    <imagen>img/personajes/ray.png</imagen>
+</personaje>
+
+<personaje id="p15">
+    <nombre>Marine the Raccoon</nombre>
+    <especie>Mapache</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Rush Adventure (2007)</juegoDebut>
+    <velocidad>65</velocidad>
+    <fuerza>55</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Joven aventurera con sueños de navegar por todo el mundo junto a Blaze.</descripcion>
+    <imagen>img/personajes/marine.png</imagen>
+</personaje>
+
+<personaje id="p16">
+    <nombre>Chip</nombre>
+    <especie>Light Gaia</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Unleashed (2008)</juegoDebut>
+    <velocidad>70</velocidad>
+    <fuerza>80</fuerza>
+    <inteligencia>85</inteligencia>
+    <descripcion>Encarnación de Light Gaia y aliado fundamental de Sonic durante la crisis de Dark Gaia.</descripcion>
+    <imagen>img/personajes/chip.png</imagen>
+</personaje>
+
+<personaje id="p17">
+    <nombre>E-102 Gamma</nombre>
+    <especie>Robot</especie>
+    <alineacion>Heroe</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Adventure (1998)</juegoDebut>
+    <velocidad>65</velocidad>
+    <fuerza>95</fuerza>
+    <inteligencia>80</inteligencia>
+    <descripcion>Robot de combate creado por Eggman que se rebeló para liberar a sus hermanos robóticos.</descripcion>
+    <imagen>img/personajes/gamma.png</imagen>
+</personaje>
+
+<personaje id="p18">
+    <nombre>Shadow the Hedgehog</nombre>
+    <especie>Erizo</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Adventure 2 (2001)</juegoDebut>
+    <velocidad>98</velocidad>
+    <fuerza>90</fuerza>
+    <inteligencia>85</inteligencia>
+    <descripcion>La Forma de Vida Suprema creada por el Profesor Gerald Robotnik. Rival y aliado ocasional de Sonic.</descripcion>
+    <imagen>img/personajes/shadow.png</imagen>
+</personaje>
+
+<personaje id="p19">
+    <nombre>Chaos</nombre>
+    <especie>Entidad de agua</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Adventure (1998)</juegoDebut>
+    <velocidad>80</velocidad>
+    <fuerza>95</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Antiguo guardián de los Chao que fue corrompido por el dolor y la ira.</descripcion>
+    <imagen>img/personajes/chaos.png</imagen>
+</personaje>
+
+<personaje id="p20">
+    <nombre>Jet the Hawk</nombre>
+    <especie>Halcón</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Riders (2006)</juegoDebut>
+    <velocidad>95</velocidad>
+    <fuerza>75</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Líder de los Babylon Rogues y autoproclamado corredor más rápido del mundo.</descripcion>
+    <imagen>img/personajes/jet.png</imagen>
+</personaje>
+
+<personaje id="p21">
+    <nombre>Rouge the Bat</nombre>
+    <especie>Murciélago</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Adventure 2 (2001)</juegoDebut>
+    <velocidad>80</velocidad>
+    <fuerza>75</fuerza>
+    <inteligencia>90</inteligencia>
+    <descripcion>Espía profesional y cazadora de tesoros que trabaja ocasionalmente para G.U.N.</descripcion>
+    <imagen>img/personajes/rouge.png</imagen>
+</personaje>
+
+<personaje id="p22">
+    <nombre>Wave the Swallow</nombre>
+    <especie>Golondrina</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Riders (2006)</juegoDebut>
+    <velocidad>85</velocidad>
+    <fuerza>60</fuerza>
+    <inteligencia>95</inteligencia>
+    <descripcion>Ingeniera y mecánica experta de los Babylon Rogues.</descripcion>
+    <imagen>img/personajes/wave.png</imagen>
+</personaje>
+
+<personaje id="p23">
+    <nombre>Storm the Albatross</nombre>
+    <especie>Albatros</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Riders (2006)</juegoDebut>
+    <velocidad>65</velocidad>
+    <fuerza>100</fuerza>
+    <inteligencia>50</inteligencia>
+    <descripcion>El miembro más fuerte de los Babylon Rogues y fiel compañero de Jet.</descripcion>
+    <imagen>img/personajes/storm.png</imagen>
+</personaje>
+
+<personaje id="p24">
+    <nombre>E-123 Omega</nombre>
+    <especie>Robot</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Heroes (2003)</juegoDebut>
+    <velocidad>60</velocidad>
+    <fuerza>100</fuerza>
+    <inteligencia>80</inteligencia>
+    <descripcion>Robot de combate creado por Eggman que dedica su existencia a destruir el imperio de su creador.</descripcion>
+    <imagen>img/personajes/omega.png</imagen>
+</personaje>
+
+<personaje id="p25">
+    <nombre>Trip the Sungazer</nombre>
+    <especie>Dragón Sungazer</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Superstars (2023)</juegoDebut>
+    <velocidad>70</velocidad>
+    <fuerza>75</fuerza>
+    <inteligencia>65</inteligencia>
+    <descripcion>Habitante de las Northstar Islands que inicialmente se opone a Sonic antes de convertirse en aliada.</descripcion>
+    <imagen>img/personajes/trip.png</imagen>
+</personaje>
+
+<personaje id="p26">
+    <nombre>Sage</nombre>
+    <especie>Inteligencia Artificial</especie>
+    <alineacion>Antiheroe</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Frontiers (2022)</juegoDebut>
+    <velocidad>70</velocidad>
+    <fuerza>65</fuerza>
+    <inteligencia>100</inteligencia>
+    <descripcion>Inteligencia artificial creada por Eggman que desarrolla empatía y termina ayudando a Sonic.</descripcion>
+    <imagen>img/personajes/sage.png</imagen>
+</personaje>
+
+<personaje id="p27">
+    <nombre>Dr. Eggman</nombre>
+    <especie>Humano</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic the Hedgehog (1991)</juegoDebut>
+    <velocidad>20</velocidad>
+    <fuerza>40</fuerza>
+    <inteligencia>100</inteligencia>
+    <descripcion>Genio científico que busca conquistar el mundo mediante tecnología y ejércitos robóticos.</descripcion>
+    <imagen>img/personajes/eggman.png</imagen>
+</personaje>
+
+<personaje id="p28">
+    <nombre>Mephiles the Dark</nombre>
+    <especie>Entidad Oscura</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic the Hedgehog (2006)</juegoDebut>
+    <velocidad>90</velocidad>
+    <fuerza>90</fuerza>
+    <inteligencia>95</inteligencia>
+    <descripcion>Manifestación consciente de la oscuridad de Solaris y uno de los enemigos más peligrosos de Sonic.</descripcion>
+    <imagen>img/personajes/mephiles.png</imagen>
+</personaje>
+
+<personaje id="p29">
+    <nombre>Metal Sonic</nombre>
+    <especie>Robot</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic CD (1993)</juegoDebut>
+    <velocidad>97</velocidad>
+    <fuerza>85</fuerza>
+    <inteligencia>85</inteligencia>
+    <descripcion>Réplica robótica de Sonic creada por Eggman para superar al erizo azul.</descripcion>
+    <imagen>img/personajes/metalsonic.png</imagen>
+</personaje>
+
+<personaje id="p30">
+    <nombre>Infinite</nombre>
+    <especie>Chacal</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Forces (2017)</juegoDebut>
+    <velocidad>85</velocidad>
+    <fuerza>85</fuerza>
+    <inteligencia>75</inteligencia>
+    <descripcion>Mercenario fortalecido por el Phantom Ruby que puede manipular ilusiones y la realidad.</descripcion>
+    <imagen>img/personajes/infinite.png</imagen>
+</personaje>
+
+<personaje id="p31">
+    <nombre>Zavok</nombre>
+    <especie>Zeti</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Lost World (2013)</juegoDebut>
+    <velocidad>70</velocidad>
+    <fuerza>95</fuerza>
+    <inteligencia>80</inteligencia>
+    <descripcion>Líder de los Deadly Six y el más poderoso físicamente del grupo.</descripcion>
+    <imagen>img/personajes/zavok.png</imagen>
+</personaje>
+
+<personaje id="p32">
+    <nombre>Orbot</nombre>
+    <especie>Robot</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Unleashed (2008)</juegoDebut>
+    <velocidad>30</velocidad>
+    <fuerza>20</fuerza>
+    <inteligencia>75</inteligencia>
+    <descripcion>Asistente robótico sarcástico de Eggman que suele señalar los errores de su creador.</descripcion>
+    <imagen>img/personajes/orbot.png</imagen>
+</personaje>
+
+<personaje id="p33">
+    <nombre>Cubot</nombre>
+    <especie>Robot</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Colors (2010)</juegoDebut>
+    <velocidad>25</velocidad>
+    <fuerza>20</fuerza>
+    <inteligencia>55</inteligencia>
+    <descripcion>Asistente robótico de Eggman conocido por su personalidad ingenua y torpe.</descripcion>
+    <imagen>img/personajes/cubot.png</imagen>
+</personaje>
+
+<personaje id="p34">
+    <nombre>Black Doom</nombre>
+    <especie>Black Arms</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Shadow the Hedgehog (2005)</juegoDebut>
+    <velocidad>85</velocidad>
+    <fuerza>95</fuerza>
+    <inteligencia>95</inteligencia>
+    <descripcion>Líder de los Black Arms y responsable de la creación de Shadow.</descripcion>
+    <imagen>img/personajes/blackdoom.png</imagen>
+</personaje>
+
+<personaje id="p35">
+    <nombre>Dark Gaia</nombre>
+    <especie>Entidad Primordial</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Unleashed (2008)</juegoDebut>
+    <velocidad>70</velocidad>
+    <fuerza>100</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Fuerza destructiva ancestral que busca fragmentar y consumir el planeta.</descripcion>
+    <imagen>img/personajes/darkgaia.png</imagen>
+</personaje>
+
+<personaje id="p36">
+    <nombre>The End</nombre>
+    <especie>Entidad Cósmica</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Desconocido</genero>
+    <juegoDebut>Sonic Frontiers (2022)</juegoDebut>
+    <velocidad>80</velocidad>
+    <fuerza>100</fuerza>
+    <inteligencia>100</inteligencia>
+    <descripcion>Entidad cósmica responsable de la destrucción de civilizaciones enteras a través del universo.</descripcion>
+    <imagen>img/personajes/theend.png</imagen>
+</personaje>
+
+<personaje id="p37">
+    <nombre>Zazz</nombre>
+    <especie>Zeti</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Lost World (2013)</juegoDebut>
+    <velocidad>85</velocidad>
+    <fuerza>80</fuerza>
+    <inteligencia>45</inteligencia>
+    <descripcion>Miembro hiperactivo y agresivo de los Deadly Six.</descripcion>
+    <imagen>img/personajes/zazz.png</imagen>
+</personaje>
+
+<personaje id="p38">
+    <nombre>Zeena</nombre>
+    <especie>Zeti</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Femenino</genero>
+    <juegoDebut>Sonic Lost World (2013)</juegoDebut>
+    <velocidad>75</velocidad>
+    <fuerza>65</fuerza>
+    <inteligencia>70</inteligencia>
+    <descripcion>Miembro de los Deadly Six obsesionada con su apariencia y popularidad.</descripcion>
+    <imagen>img/personajes/zeena.png</imagen>
+</personaje>
+
+<personaje id="p39">
+    <nombre>Zomom</nombre>
+    <especie>Zeti</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Lost World (2013)</juegoDebut>
+    <velocidad>35</velocidad>
+    <fuerza>95</fuerza>
+    <inteligencia>35</inteligencia>
+    <descripcion>Miembro de los Deadly Six caracterizado por su enorme fuerza y apetito insaciable.</descripcion>
+    <imagen>img/personajes/zomom.png</imagen>
+</personaje>
+
+<personaje id="p40">
+    <nombre>Master Zik</nombre>
+    <especie>Zeti</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Lost World (2013)</juegoDebut>
+    <velocidad>65</velocidad>
+    <fuerza>85</fuerza>
+    <inteligencia>90</inteligencia>
+    <descripcion>El miembro más sabio y experimentado de los Deadly Six.</descripcion>
+    <imagen>img/personajes/masterzik.png</imagen>
+</personaje>
+
+<personaje id="p41">
+    <nombre>Zor</nombre>
+    <especie>Zeti</especie>
+    <alineacion>Villano</alineacion>
+    <genero>Masculino</genero>
+    <juegoDebut>Sonic Lost World (2013)</juegoDebut>
+    <velocidad>60</velocidad>
+    <fuerza>60</fuerza>
+    <inteligencia>75</inteligencia>
+    <descripcion>Miembro melancólico de los Deadly Six con una visión pesimista de la vida.</descripcion>
+    <imagen>img/personajes/zor.png</imagen>
+</personaje>
+
+</personajes>

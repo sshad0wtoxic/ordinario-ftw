@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE habilidades SYSTEM "habilidades.dtd">
+
+<habilidades>
+
+    <habilidad id="h01">
+        <nombre>Super Velocidad</nombre>
+        <descripcion>Permite desplazarse a velocidades extremadamente altas.</descripcion>
+        <tipo>Fisica</tipo>
+    </habilidad>
+
+    <habilidad id="h02">
+        <nombre>Vuelo</nombre>
+        <descripcion>Capacidad de desplazarse por el aire sin apoyo terrestre.</descripcion>
+        <tipo>Movimiento</tipo>
+    </habilidad>
+
+    <habilidad id="h03">
+        <nombre>Fuerza Sobrehumana</nombre>
+        <descripcion>Otorga una fuerza física muy superior a la normal.</descripcion>
+        <tipo>Fisica</tipo>
+    </habilidad>
+
+    <habilidad id="h04">
+        <nombre>Inteligencia Genial</nombre>
+        <descripcion>Capacidad intelectual sobresaliente para resolver problemas complejos.</descripcion>
+        <tipo>Mental</tipo>
+    </habilidad>
+
+    <habilidad id="h05">
+        <nombre>Combate Cuerpo a Cuerpo</nombre>
+        <descripcion>Dominio de técnicas de lucha física y artes marciales.</descripcion>
+        <tipo>Combate</tipo>
+    </habilidad>
+
+    <habilidad id="h06">
+        <nombre>Telequinesis</nombre>
+        <descripcion>Capacidad de mover objetos mediante la mente.</descripcion>
+        <tipo>Psiquica</tipo>
+    </habilidad>
+
+    <habilidad id="h07">
+        <nombre>Manipulación del Caos</nombre>
+        <descripcion>Uso de energía relacionada con las Chaos Emeralds.</descripcion>
+        <tipo>Energia</tipo>
+    </habilidad>
+
+    <habilidad id="h08">
+        <nombre>Sigilo</nombre>
+        <descripcion>Capacidad para ocultarse y moverse sin ser detectado.</descripcion>
+        <tipo>Especial</tipo>
+    </habilidad>
+
+    <habilidad id="h09">
+        <nombre>Detectivesco</nombre>
+        <descripcion>Habilidad para investigar, analizar pistas y resolver casos.</descripcion>
+        <tipo>Mental</tipo>
+    </habilidad>
+
+    <habilidad id="h10">
+        <nombre>Control del Fuego</nombre>
+        <descripcion>Manipulación y generación de llamas.</descripcion>
+        <tipo>Elemental</tipo>
+    </habilidad>
+
+    <habilidad id="h11">
+        <nombre>Uso de Martillo</nombre>
+        <descripcion>Dominio avanzado del combate utilizando martillos.</descripcion>
+        <tipo>Combate</tipo>
+    </habilidad>
+
+    <habilidad id="h12">
+        <nombre>Transformación</nombre>
+        <descripcion>Capacidad de cambiar de forma o estado para aumentar el poder.</descripcion>
+        <tipo>Especial</tipo>
+    </habilidad>
+
+    <habilidad id="h13">
+        <nombre>Pilotaje</nombre>
+        <descripcion>Dominio de vehículos, aeronaves y navegación.</descripcion>
+        <tipo>Tecnica</tipo>
+    </habilidad>
+
+    <habilidad id="h14">
+        <nombre>Tecnología Avanzada</nombre>
+        <descripcion>Uso y desarrollo de tecnología altamente sofisticada.</descripcion>
+        <tipo>Tecnica</tipo>
+    </habilidad>
+
+    <habilidad id="h15">
+        <nombre>Disparo de Energía</nombre>
+        <descripcion>Capacidad de lanzar proyectiles energéticos.</descripcion>
+        <tipo>Energia</tipo>
+    </habilidad>
+
+    <habilidad id="h16">
+        <nombre>Manipulación Temporal</nombre>
+        <descripcion>Capacidad para alterar o influir en el flujo del tiempo.</descripcion>
+        <tipo>Temporal</tipo>
+    </habilidad>
+
+    <habilidad id="h17">
+        <nombre>Manipulación de Ilusiones</nombre>
+        <descripcion>Creación de ilusiones capaces de engañar a los sentidos.</descripcion>
+        <tipo>Especial</tipo>
+    </habilidad>
+
+    <habilidad id="h18">
+        <nombre>Liderazgo</nombre>
+        <descripcion>Capacidad para dirigir equipos y coordinar estrategias.</descripcion>
+        <tipo>Social</tipo>
+    </habilidad>
+
+    <habilidad id="h19">
+        <nombre>Poder Cósmico</nombre>
+        <descripcion>Manipulación de energías y fuerzas de origen universal.</descripcion>
+        <tipo>Cosmico</tipo>
+    </habilidad>
+
+    <habilidad id="h20">
+        <nombre>Control del Agua</nombre>
+        <descripcion>Manipulación y control de masas de agua.</descripcion>
+        <tipo>Elemental</tipo>
+    </habilidad>
+
+</habilidades>

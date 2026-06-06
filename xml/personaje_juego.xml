@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE personajes_juegos SYSTEM "personaje_juego.dtd">
+
+<personajes_juegos>
+
+    <!-- Sonic -->
+    <personaje_juego idPersonaje="p01" idJuego="j01"/>
+    <personaje_juego idPersonaje="p01" idJuego="j02"/>
+    <personaje_juego idPersonaje="p01" idJuego="j04"/>
+    <personaje_juego idPersonaje="p01" idJuego="j05"/>
+    <personaje_juego idPersonaje="p01" idJuego="j06"/>
+    <personaje_juego idPersonaje="p01" idJuego="j18"/>
+
+    <!-- Tails -->
+    <personaje_juego idPersonaje="p02" idJuego="j02"/>
+    <personaje_juego idPersonaje="p02" idJuego="j05"/>
+    <personaje_juego idPersonaje="p02" idJuego="j06"/>
+    <personaje_juego idPersonaje="p02" idJuego="j18"/>
+
+    <!-- Knuckles -->
+    <personaje_juego idPersonaje="p03" idJuego="j04"/>
+    <personaje_juego idPersonaje="p03" idJuego="j05"/>
+    <personaje_juego idPersonaje="p03" idJuego="j07"/>
+    <personaje_juego idPersonaje="p03" idJuego="j18"/>
+
+    <!-- Amy -->
+    <personaje_juego idPersonaje="p04" idJuego="j03"/>
+    <personaje_juego idPersonaje="p04" idJuego="j05"/>
+    <personaje_juego idPersonaje="p04" idJuego="j07"/>
+    <personaje_juego idPersonaje="p04" idJuego="j18"/>
+
+    <!-- Cream -->
+    <personaje_juego idPersonaje="p05" idJuego="j09"/>
+    <personaje_juego idPersonaje="p05" idJuego="j11"/>
+    <personaje_juego idPersonaje="p05" idJuego="j07"/>
+
+    <!-- Espio -->
+    <personaje_juego idPersonaje="p06" idJuego="j07"/>
+
+    <!-- Vector -->
+    <personaje_juego idPersonaje="p07" idJuego="j07"/>
+
+    <!-- Charmy -->
+    <personaje_juego idPersonaje="p08" idJuego="j07"/>
+
+    <!-- Big -->
+    <personaje_juego idPersonaje="p09" idJuego="j05"/>
+
+    <!-- Blaze -->
+    <personaje_juego idPersonaje="p10" idJuego="j09"/>
+    <personaje_juego idPersonaje="p10" idJuego="j11"/>
+    <personaje_juego idPersonaje="p10" idJuego="j10"/>
+
+    <!-- Silver -->
+    <personaje_juego idPersonaje="p11" idJuego="j10"/>
+    <personaje_juego idPersonaje="p11" idJuego="j14"/>
+
+    <!-- Tikal -->
+    <personaje_juego idPersonaje="p12" idJuego="j05"/>
+
+    <!-- Mighty -->
+    <personaje_juego idPersonaje="p13" idJuego="j16"/>
+    <personaje_juego idPersonaje="p13" idJuego="j19"/>
+
+    <!-- Ray -->
+    <personaje_juego idPersonaje="p14" idJuego="j16"/>
+    <personaje_juego idPersonaje="p14" idJuego="j19"/>
+
+    <!-- Marine -->
+    <personaje_juego idPersonaje="p15" idJuego="j11"/>
+
+    <!-- Chip -->
+    <personaje_juego idPersonaje="p16" idJuego="j12"/>
+
+    <!-- Gamma -->
+    <personaje_juego idPersonaje="p17" idJuego="j05"/>
+
+    <!-- Shadow -->
+    <personaje_juego idPersonaje="p18" idJuego="j06"/>
+    <personaje_juego idPersonaje="p18" idJuego="j08"/>
+    <personaje_juego idPersonaje="p18" idJuego="j20"/>
+
+    <!-- Chaos -->
+    <personaje_juego idPersonaje="p19" idJuego="j05"/>
+
+    <!-- Babylon Rogues -->
+    <personaje_juego idPersonaje="p20" idJuego="j22"/>
+    <personaje_juego idPersonaje="p21" idJuego="j06"/>
+    <personaje_juego idPersonaje="p22" idJuego="j22"/>
+    <personaje_juego idPersonaje="p23" idJuego="j22"/>
+
+    <!-- Omega -->
+    <personaje_juego idPersonaje="p24" idJuego="j07"/>
+
+    <!-- Trip -->
+    <personaje_juego idPersonaje="p25" idJuego="j19"/>
+
+    <!-- Sage -->
+    <personaje_juego idPersonaje="p26" idJuego="j18"/>
+
+    <!-- Eggman -->
+    <personaje_juego idPersonaje="p27" idJuego="j01"/>
+    <personaje_juego idPersonaje="p27" idJuego="j05"/>
+    <personaje_juego idPersonaje="p27" idJuego="j18"/>
+
+    <!-- Mephiles -->
+    <personaje_juego idPersonaje="p28" idJuego="j10"/>
+
+    <!-- Metal Sonic -->
+    <personaje_juego idPersonaje="p29" idJuego="j03"/>
+    <personaje_juego idPersonaje="p29" idJuego="j07"/>
+
+    <!-- Infinite -->
+    <personaje_juego idPersonaje="p30" idJuego="j17"/>
+
+    <!-- Zavok -->
+    <personaje_juego idPersonaje="p31" idJuego="j15"/>
+    <personaje_juego idPersonaje="p31" idJuego="j18"/>
+
+    <!-- Orbot -->
+    <personaje_juego idPersonaje="p32" idJuego="j13"/>
+
+    <!-- Cubot -->
+    <personaje_juego idPersonaje="p33" idJuego="j13"/>
+
+    <!-- Black Doom -->
+    <personaje_juego idPersonaje="p34" idJuego="j08"/>
+    <personaje_juego idPersonaje="p34" idJuego="j20"/>
+
+    <!-- Dark Gaia -->
+    <personaje_juego idPersonaje="p35" idJuego="j12"/>
+
+    <!-- The End -->
+    <personaje_juego idPersonaje="p36" idJuego="j18"/>
+
+    <!-- Deadly Six -->
+    <personaje_juego idPersonaje="p37" idJuego="j15"/>
+    <personaje_juego idPersonaje="p38" idJuego="j15"/>
+    <personaje_juego idPersonaje="p39" idJuego="j15"/>
+    <personaje_juego idPersonaje="p40" idJuego="j15"/>
+    <personaje_juego idPersonaje="p41" idJuego="j15"/>
+
+</personajes_juegos>

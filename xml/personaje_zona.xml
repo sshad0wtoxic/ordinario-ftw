@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE personajes_zonas SYSTEM "personaje_zona.dtd">
+
+<personajes_zonas>
+
+    <!-- z01 Green Hill Zone -->
+    <personaje_zona idPersonaje="p01" idZona="z01"/>
+    <personaje_zona idPersonaje="p02" idZona="z01"/>
+    <personaje_zona idPersonaje="p04" idZona="z01"/>
+    <personaje_zona idPersonaje="p05" idZona="z01"/>
+    <personaje_zona idPersonaje="p13" idZona="z01"/>
+    <personaje_zona idPersonaje="p14" idZona="z01"/>
+    <personaje_zona idPersonaje="p27" idZona="z01"/>
+
+    <!-- z02 Angel Island -->
+    <personaje_zona idPersonaje="p03" idZona="z02"/>
+    <personaje_zona idPersonaje="p12" idZona="z02"/>
+    <personaje_zona idPersonaje="p09" idZona="z02"/>
+    <personaje_zona idPersonaje="p19" idZona="z02"/>
+    <personaje_zona idPersonaje="p25" idZona="z02"/>
+
+    <!-- z03 Seaside Hill -->
+    <personaje_zona idPersonaje="p01" idZona="z03"/>
+    <personaje_zona idPersonaje="p02" idZona="z03"/>
+    <personaje_zona idPersonaje="p03" idZona="z03"/>
+    <personaje_zona idPersonaje="p04" idZona="z03"/>
+    <personaje_zona idPersonaje="p05" idZona="z03"/>
+    <personaje_zona idPersonaje="p09" idZona="z03"/>
+    <personaje_zona idPersonaje="p15" idZona="z03"/>
+    <personaje_zona idPersonaje="p20" idZona="z03"/>
+    <personaje_zona idPersonaje="p21" idZona="z03"/>
+    <personaje_zona idPersonaje="p22" idZona="z03"/>
+    <personaje_zona idPersonaje="p23" idZona="z03"/>
+    <personaje_zona idPersonaje="p29" idZona="z03"/>
+
+    <!-- z04 Mystic Cave -->
+    <personaje_zona idPersonaje="p01" idZona="z04"/>
+    <personaje_zona idPersonaje="p02" idZona="z04"/>
+    <personaje_zona idPersonaje="p27" idZona="z04"/>
+
+    <!-- z05 Chemical Plant Zone -->
+    <personaje_zona idPersonaje="p02" idZona="z05"/>
+    <personaje_zona idPersonaje="p27" idZona="z05"/>
+    <personaje_zona idPersonaje="p32" idZona="z05"/>
+    <personaje_zona idPersonaje="p33" idZona="z05"/>
+
+    <!-- z06 City Escape -->
+    <personaje_zona idPersonaje="p01" idZona="z06"/>
+    <personaje_zona idPersonaje="p02" idZona="z06"/>
+    <personaje_zona idPersonaje="p04" idZona="z06"/>
+    <personaje_zona idPersonaje="p18" idZona="z06"/>
+    <personaje_zona idPersonaje="p21" idZona="z06"/>
+    <personaje_zona idPersonaje="p19" idZona="z06"/>
+    <personaje_zona idPersonaje="p30" idZona="z06"/>
+    <personaje_zona idPersonaje="p34" idZona="z06"/>
+
+    <!-- z07 Central City -->
+    <personaje_zona idPersonaje="p01" idZona="z07"/>
+    <personaje_zona idPersonaje="p02" idZona="z07"/>
+    <personaje_zona idPersonaje="p04" idZona="z07"/>
+    <personaje_zona idPersonaje="p18" idZona="z07"/>
+    <personaje_zona idPersonaje="p21" idZona="z07"/>
+    <personaje_zona idPersonaje="p30" idZona="z07"/>
+
+    <!-- z08 Casino Night Zone -->
+    <personaje_zona idPersonaje="p01" idZona="z08"/>
+    <personaje_zona idPersonaje="p02" idZona="z08"/>
+    <personaje_zona idPersonaje="p27" idZona="z08"/>
+
+    <!-- z09 Casino Park -->
+    <personaje_zona idPersonaje="p01" idZona="z09"/>
+    <personaje_zona idPersonaje="p02" idZona="z09"/>
+    <personaje_zona idPersonaje="p03" idZona="z09"/>
+    <personaje_zona idPersonaje="p04" idZona="z09"/>
+    <personaje_zona idPersonaje="p29" idZona="z09"/>
+
+    <!-- z10 Death Egg -->
+    <personaje_zona idPersonaje="p01" idZona="z10"/>
+    <personaje_zona idPersonaje="p02" idZona="z10"/>
+    <personaje_zona idPersonaje="p03" idZona="z10"/>
+    <personaje_zona idPersonaje="p27" idZona="z10"/>
+    <personaje_zona idPersonaje="p29" idZona="z10"/>
+
+    <!-- z11 Eggmanland -->
+    <personaje_zona idPersonaje="p16" idZona="z11"/>
+    <personaje_zona idPersonaje="p24" idZona="z11"/>
+    <personaje_zona idPersonaje="p27" idZona="z11"/>
+    <personaje_zona idPersonaje="p32" idZona="z11"/>
+    <personaje_zona idPersonaje="p33" idZona="z11"/>
+    <personaje_zona idPersonaje="p17" idZona="z11"/>
+    <personaje_zona idPersonaje="p35" idZona="z11"/>
+    <personaje_zona idPersonaje="p31" idZona="z11"/>
+    <personaje_zona idPersonaje="p37" idZona="z11"/>
+    <personaje_zona idPersonaje="p38" idZona="z11"/>
+    <personaje_zona idPersonaje="p39" idZona="z11"/>
+    <personaje_zona idPersonaje="p40" idZona="z11"/>
+    <personaje_zona idPersonaje="p41" idZona="z11"/>
+
+    <!-- z12 Sky Sanctuary -->
+    <personaje_zona idPersonaje="p03" idZona="z12"/>
+    <personaje_zona idPersonaje="p12" idZona="z12"/>
+    <personaje_zona idPersonaje="p20" idZona="z12"/>
+    <personaje_zona idPersonaje="p21" idZona="z12"/>
+    <personaje_zona idPersonaje="p22" idZona="z12"/>
+    <personaje_zona idPersonaje="p23" idZona="z12"/>
+    <personaje_zona idPersonaje="p29" idZona="z12"/>
+
+    <!-- z13 Starfall Islands -->
+    <personaje_zona idPersonaje="p01" idZona="z13"/>
+    <personaje_zona idPersonaje="p02" idZona="z13"/>
+    <personaje_zona idPersonaje="p03" idZona="z13"/>
+    <personaje_zona idPersonaje="p04" idZona="z13"/>
+    <personaje_zona idPersonaje="p26" idZona="z13"/>
+    <personaje_zona idPersonaje="p36" idZona="z13"/>
+    <personaje_zona idPersonaje="p31" idZona="z13"/>
+
+    <!-- z14 Crisis City -->
+    <personaje_zona idPersonaje="p11" idZona="z14"/>
+    <personaje_zona idPersonaje="p10" idZona="z14"/>
+    <personaje_zona idPersonaje="p28" idZona="z14"/>
+
+</personajes_zonas>

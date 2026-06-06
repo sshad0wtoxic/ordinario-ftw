@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE juegos SYSTEM "juegos.dtd">
+
+<juegos>
+
+    <juego id="j01">
+        <nombre>Sonic the Hedgehog</nombre>
+        <anio>1991</anio>
+        <tipo>Plataformas</tipo>
+        <era>Clasica</era>
+        <plataforma>Sega Genesis</plataforma>
+        <descripcion>Primer videojuego de Sonic y debut del Dr. Eggman.</descripcion>
+        <imagen>img/juegos/sonic1.png</imagen>
+    </juego>
+
+    <juego id="j02">
+        <nombre>Sonic the Hedgehog 2</nombre>
+        <anio>1992</anio>
+        <tipo>Plataformas</tipo>
+        <era>Clasica</era>
+        <plataforma>Sega Genesis</plataforma>
+        <descripcion>Introduce a Tails y consolida la importancia de las Chaos Emeralds.</descripcion>
+        <imagen>img/juegos/sonic2.png</imagen>
+    </juego>
+
+    <juego id="j03">
+        <nombre>Sonic CD</nombre>
+        <anio>1993</anio>
+        <tipo>Plataformas</tipo>
+        <era>Clasica</era>
+        <plataforma>Sega CD</plataforma>
+        <descripcion>Debut de Amy Rose y Metal Sonic con mecánicas de viajes en el tiempo.</descripcion>
+        <imagen>img/juegos/soniccd.png</imagen>
+    </juego>
+
+    <juego id="j04">
+        <nombre>Sonic the Hedgehog 3 &amp; Knuckles</nombre>
+        <anio>1994</anio>
+        <tipo>Plataformas</tipo>
+        <era>Clasica</era>
+        <plataforma>Sega Genesis</plataforma>
+        <descripcion>Introduce a Knuckles, Angel Island y la Master Emerald.</descripcion>
+        <imagen>img/juegos/sonic3knuckles.png</imagen>
+    </juego>
+
+    <juego id="j05">
+        <nombre>Sonic Adventure</nombre>
+        <anio>1998</anio>
+        <tipo>Plataformas 3D</tipo>
+        <era>Moderna</era>
+        <plataforma>Dreamcast</plataforma>
+        <descripcion>Primer gran salto al 3D. Introduce a Chaos, Tikal, Big y Gamma.</descripcion>
+        <imagen>img/juegos/sonicadventure.png</imagen>
+    </juego>
+
+    <juego id="j06">
+        <nombre>Sonic Adventure 2</nombre>
+        <anio>2001</anio>
+        <tipo>Plataformas 3D</tipo>
+        <era>Moderna</era>
+        <plataforma>Dreamcast</plataforma>
+        <descripcion>Debut de Shadow y Rouge; explora la historia de la colonia espacial ARK.</descripcion>
+        <imagen>img/juegos/sonicadventure2.png</imagen>
+    </juego>
+
+    <juego id="j07">
+        <nombre>Sonic Heroes</nombre>
+        <anio>2003</anio>
+        <tipo>Plataformas 3D</tipo>
+        <era>Moderna</era>
+        <plataforma>PlayStation 2</plataforma>
+        <descripcion>Introduce la jugabilidad por equipos y el regreso de los Chaotix.</descripcion>
+        <imagen>img/juegos/sonicheroes.png</imagen>
+    </juego>
+
+    <juego id="j08">
+        <nombre>Shadow the Hedgehog</nombre>
+        <anio>2005</anio>
+        <tipo>Accion</tipo>
+        <era>Moderna</era>
+        <plataforma>PlayStation 2</plataforma>
+        <descripcion>Juego protagonizado por Shadow que revela su origen y presenta a Black Doom.</descripcion>
+        <imagen>img/juegos/shadowthehedgehog.png</imagen>
+    </juego>
+
+    <juego id="j09">
+        <nombre>Sonic Rush</nombre>
+        <anio>2005</anio>
+        <tipo>Plataformas</tipo>
+        <era>Moderna</era>
+        <plataforma>Nintendo DS</plataforma>
+        <descripcion>Debut de Blaze the Cat y la Dimensión Sol.</descripcion>
+        <imagen>img/juegos/sonicrush.png</imagen>
+    </juego>
+
+    <juego id="j10">
+        <nombre>Sonic the Hedgehog (2006)</nombre>
+        <anio>2006</anio>
+        <tipo>Plataformas 3D</tipo>
+        <era>Moderna</era>
+        <plataforma>PlayStation 3</plataforma>
+        <descripcion>Introduce a Silver y Mephiles en una historia centrada en viajes temporales.</descripcion>
+        <imagen>img/juegos/sonic2006.png</imagen>
+    </juego>
+
+    <juego id="j11">
+        <nombre>Sonic Rush Adventure</nombre>
+        <anio>2007</anio>
+        <tipo>Plataformas</tipo>
+        <era>Moderna</era>
+        <plataforma>Nintendo DS</plataforma>
+        <descripcion>Introduce a Marine the Raccoon y expande la Dimensión Sol junto a Blaze.</descripcion>
+        <imagen>img/juegos/sonicrushadventure.png</imagen>
+    </juego>
+
+    <juego id="j12">
+        <nombre>Sonic Unleashed</nombre>
+        <anio>2008</anio>
+        <tipo>Plataformas 3D</tipo>
+        <era>Moderna</era>
+        <plataforma>PlayStation 3</plataforma>
+        <descripcion>Introduce a Chip y la amenaza de Dark Gaia.</descripcion>
+        <imagen>img/juegos/sonicunleashed.png</imagen>
+    </juego>
+
+    <juego id="j13">
+        <nombre>Sonic Colors</nombre>
+        <anio>2010</anio>
+        <tipo>Plataformas</tipo>
+        <era>Moderna</era>
+        <plataforma>Nintendo Wii</plataforma>
+        <descripcion>Presenta a los Wisps y consolida a Orbot y Cubot.</descripcion>
+        <imagen>img/juegos/soniccolors.png</imagen>
+    </juego>
+
+    <juego id="j14">
+        <nombre>Sonic Generations</nombre>
+        <anio>2011</anio>
+        <tipo>Aniversario</tipo>
+        <era>Moderna</era>
+        <plataforma>PlayStation 3</plataforma>
+        <descripcion>Une al Sonic clásico y moderno en una celebración de la saga.</descripcion>
+        <imagen>img/juegos/sonicgenerations.png</imagen>
+    </juego>
+
+    <juego id="j15">
+        <nombre>Sonic Lost World</nombre>
+        <anio>2013</anio>
+        <tipo>Plataformas</tipo>
+        <era>Moderna</era>
+        <plataforma>Nintendo Wii U</plataforma>
+        <descripcion>Introduce a Zavok y los Deadly Six.</descripcion>
+        <imagen>img/juegos/soniclostworld.png</imagen>
+    </juego>
+
+    <juego id="j16">
+        <nombre>Sonic Mania</nombre>
+        <anio>2017</anio>
+        <tipo>Plataformas</tipo>
+        <era>Clasica</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Regreso al estilo clásico con Mighty y Ray.</descripcion>
+        <imagen>img/juegos/sonicmania.png</imagen>
+    </juego>
+
+    <juego id="j17">
+        <nombre>Sonic Forces</nombre>
+        <anio>2017</anio>
+        <tipo>Plataformas</tipo>
+        <era>Moderna</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Eggman conquista el mundo con Infinite y el Phantom Ruby.</descripcion>
+        <imagen>img/juegos/sonicforces.png</imagen>
+    </juego>
+
+    <juego id="j18">
+        <nombre>Sonic Frontiers</nombre>
+        <anio>2022</anio>
+        <tipo>Mundo Abierto</tipo>
+        <era>Moderna</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Introduce las Starfall Islands, Sage y The End.</descripcion>
+        <imagen>img/juegos/sonicfrontiers.png</imagen>
+    </juego>
+
+    <juego id="j19">
+        <nombre>Sonic Superstars</nombre>
+        <anio>2023</anio>
+        <tipo>Plataformas</tipo>
+        <era>Clasica</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Combina jugabilidad clásica con gráficos 3D e introduce a Trip.</descripcion>
+        <imagen>img/juegos/sonicsuperstars.png</imagen>
+    </juego>
+
+    <juego id="j20">
+        <nombre>Sonic X Shadow Generations</nombre>
+        <anio>2024</anio>
+        <tipo>Aniversario</tipo>
+        <era>Moderna</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Nueva campaña centrada en Shadow enfrentando nuevamente a Black Doom.</descripcion>
+        <imagen>img/juegos/sonicxshadowgenerations.png</imagen>
+    </juego>
+
+    <juego id="j21">
+        <nombre>Sonic Rumble</nombre>
+        <anio>2025</anio>
+        <tipo>Party Battle Royale</tipo>
+        <era>Moderna</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Juego multijugador con gran parte del elenco de Sonic.</descripcion>
+        <imagen>img/juegos/sonicrumble.png</imagen>
+    </juego>
+
+    <juego id="j22">
+        <nombre>Sonic Racing: CrossWorlds</nombre>
+        <anio>2025</anio>
+        <tipo>Carreras</tipo>
+        <era>Moderna</era>
+        <plataforma>Multiplataforma</plataforma>
+        <descripcion>Carreras interdimensionales que reúnen héroes, antihéroes y villanos.</descripcion>
+        <imagen>img/juegos/sonicracingcrossworlds.png</imagen>
+    </juego>
+
+</juegos>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE juegos_zonas SYSTEM "juego_zona.dtd">
+
+<juegos_zonas>
+
+    <!-- Sonic 1 -->
+    <juego_zona idJuego="j01" idZona="z01"/>
+
+    <!-- Sonic 2 -->
+    <juego_zona idJuego="j02" idZona="z04"/>
+    <juego_zona idJuego="j02" idZona="z05"/>
+    <juego_zona idJuego="j02" idZona="z08"/>
+    <juego_zona idJuego="j02" idZona="z10"/>
+
+    <!-- Sonic CD -->
+    <juego_zona idJuego="j03" idZona="z08"/>
+
+    <!-- Sonic 3 & Knuckles -->
+    <juego_zona idJuego="j04" idZona="z02"/>
+    <juego_zona idJuego="j04" idZona="z10"/>
+    <juego_zona idJuego="j04" idZona="z12"/>
+
+    <!-- Sonic Adventure -->
+    <juego_zona idJuego="j05" idZona="z02"/>
+    <juego_zona idJuego="j05" idZona="z07"/>
+
+    <!-- Sonic Adventure 2 -->
+    <juego_zona idJuego="j06" idZona="z06"/>
+    <juego_zona idJuego="j06" idZona="z07"/>
+
+    <!-- Sonic Heroes -->
+    <juego_zona idJuego="j07" idZona="z03"/>
+    <juego_zona idJuego="j07" idZona="z09"/>
+    <juego_zona idJuego="j07" idZona="z11"/>
+
+    <!-- Shadow the Hedgehog -->
+    <juego_zona idJuego="j08" idZona="z06"/>
+    <juego_zona idJuego="j08" idZona="z10"/>
+
+    <!-- Sonic Rush -->
+    <juego_zona idJuego="j09" idZona="z14"/>
+
+    <!-- Sonic 2006 -->
+    <juego_zona idJuego="j10" idZona="z14"/>
+    <juego_zona idJuego="j10" idZona="z07"/>
+
+    <!-- Sonic Rush Adventure -->
+    <juego_zona idJuego="j11" idZona="z03"/>
+
+    <!-- Sonic Unleashed -->
+    <juego_zona idJuego="j12" idZona="z11"/>
+
+    <!-- Sonic Colors -->
+    <juego_zona idJuego="j13" idZona="z05"/>
+
+    <!-- Sonic Generations -->
+    <juego_zona idJuego="j14" idZona="z01"/>
+    <juego_zona idJuego="j14" idZona="z05"/>
+    <juego_zona idJuego="j14" idZona="z03"/>
+    <juego_zona idJuego="j14" idZona="z06"/>
+    <juego_zona idJuego="j14" idZona="z12"/>
+    <juego_zona idJuego="j14" idZona="z14"/>
+
+    <!-- Sonic Lost World -->
+    <juego_zona idJuego="j15" idZona="z13"/>
+
+    <!-- Sonic Mania -->
+    <juego_zona idJuego="j16" idZona="z01"/>
+    <juego_zona idJuego="j16" idZona="z04"/>
+    <juego_zona idJuego="j16" idZona="z05"/>
+    <juego_zona idJuego="j16" idZona="z12"/>
+
+    <!-- Sonic Forces -->
+    <juego_zona idJuego="j17" idZona="z01"/>
+    <juego_zona idJuego="j17" idZona="z06"/>
+    <juego_zona idJuego="j17" idZona="z14"/>
+    <juego_zona idJuego="j17" idZona="z10"/>
+    <juego_zona idJuego="j17" idZona="z05"/>
+
+    <!-- Sonic Frontiers -->
+    <juego_zona idJuego="j18" idZona="z13"/>
+    <juego_zona idJuego="j18" idZona="z01"/>
+    <juego_zona idJuego="j18" idZona="z02"/>
+
+    <!-- Sonic Superstars -->
+    <juego_zona idJuego="j19" idZona="z02"/>
+
+    <!-- Sonic X Shadow Generations -->
+    <juego_zona idJuego="j20" idZona="z06"/>
+    <juego_zona idJuego="j20" idZona="z12"/>
+    <juego_zona idJuego="j20" idZona="z14"/>
+
+    <!-- Sonic Rumble -->
+    <juego_zona idJuego="j21" idZona="z13"/>
+
+    <!-- Sonic Racing CrossWorlds -->
+    <juego_zona idJuego="j22" idZona="z03"/>
+    <juego_zona idJuego="j22" idZona="z13"/>
+    <juego_zona idJuego="j22" idZona="z11"/>
+
+</juegos_zonas>

@@ -1,0 +1,11 @@
+<!ELEMENT habilidades (habilidad+)>
+
+<!ELEMENT habilidad (nombre,descripcion,tipo)>
+
+<!ATTLIST habilidad
+    id ID #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

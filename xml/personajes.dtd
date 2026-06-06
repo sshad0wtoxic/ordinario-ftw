@@ -1,0 +1,38 @@
+<!ELEMENT personajes (personaje+)>
+
+<!ELEMENT personaje (
+    nombre,
+    especie,
+    alineacion,
+    genero,
+    juegoDebut,
+    velocidad,
+    fuerza,
+    inteligencia,
+    descripcion,
+    imagen
+)>
+
+<!ATTLIST personaje
+    id ID #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT especie (#PCDATA)>
+
+<!ELEMENT alineacion (#PCDATA)>
+
+<!ELEMENT genero (#PCDATA)>
+
+<!ELEMENT juegoDebut (#PCDATA)>
+
+<!ELEMENT velocidad (#PCDATA)>
+
+<!ELEMENT fuerza (#PCDATA)>
+
+<!ELEMENT inteligencia (#PCDATA)>
+
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT imagen (#PCDATA)>

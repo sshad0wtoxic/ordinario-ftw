@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE zonas SYSTEM "zonas.dtd">
+
+<zonas>
+
+    <zona id="z01">
+        <nombre>Green Hill Zone</nombre>
+        <tipo>Naturaleza</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j01</primeraAparicion>
+        <descripcion>La zona más icónica de Sonic, caracterizada por colinas verdes, palmeras y loopings.</descripcion>
+        <imagen>img/zonas/greenhill.png</imagen>
+    </zona>
+
+    <zona id="z02">
+        <nombre>Angel Island</nombre>
+        <tipo>Isla Flotante</tipo>
+        <alineacion>Heroes</alineacion>
+        <primeraAparicion>j04</primeraAparicion>
+        <descripcion>Hogar de Knuckles y ubicación de la Master Emerald.</descripcion>
+        <imagen>img/zonas/angelisland.png</imagen>
+    </zona>
+
+    <zona id="z03">
+        <nombre>Seaside Hill</nombre>
+        <tipo>Naturaleza</tipo>
+        <alineacion>Heroes</alineacion>
+        <primeraAparicion>j07</primeraAparicion>
+        <descripcion>Zona costera con playas tropicales y antiguas ruinas.</descripcion>
+        <imagen>img/zonas/seasidehill.png</imagen>
+    </zona>
+
+    <zona id="z04">
+        <nombre>Mystic Cave</nombre>
+        <tipo>Cueva</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j02</primeraAparicion>
+        <descripcion>Cueva profunda llena de cristales y maquinaria antigua.</descripcion>
+        <imagen>img/zonas/mysticcave.png</imagen>
+    </zona>
+
+    <zona id="z05">
+        <nombre>Chemical Plant Zone</nombre>
+        <tipo>Industrial</tipo>
+        <alineacion>Villanos</alineacion>
+        <primeraAparicion>j02</primeraAparicion>
+        <descripcion>Complejo industrial lleno de tuberías y líquidos químicos.</descripcion>
+        <imagen>img/zonas/chemicalplant.png</imagen>
+    </zona>
+
+    <zona id="z06">
+        <nombre>City Escape</nombre>
+        <tipo>Ciudad</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j06</primeraAparicion>
+        <descripcion>Ciudad inspirada en San Francisco famosa por la persecución inicial de Shadow.</descripcion>
+        <imagen>img/zonas/cityescape.png</imagen>
+    </zona>
+
+    <zona id="z07">
+        <nombre>Central City</nombre>
+        <tipo>Ciudad</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j17</primeraAparicion>
+        <descripcion>Centro urbano afectado por la invasión global de Eggman.</descripcion>
+        <imagen>img/zonas/centralcity.png</imagen>
+    </zona>
+
+    <zona id="z08">
+        <nombre>Casino Night Zone</nombre>
+        <tipo>Casino</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j02</primeraAparicion>
+        <descripcion>Zona llena de luces de neón, pinballs y mecanismos de azar.</descripcion>
+        <imagen>img/zonas/casinonight.png</imagen>
+    </zona>
+
+    <zona id="z09">
+        <nombre>Casino Park</nombre>
+        <tipo>Casino</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j07</primeraAparicion>
+        <descripcion>Parque temático inspirado en casinos construido por Eggman.</descripcion>
+        <imagen>img/zonas/casinopark.png</imagen>
+    </zona>
+
+    <zona id="z10">
+        <nombre>Death Egg</nombre>
+        <tipo>Base Eggman</tipo>
+        <alineacion>Villanos</alineacion>
+        <primeraAparicion>j02</primeraAparicion>
+        <descripcion>La estación espacial definitiva creada por el Dr. Eggman.</descripcion>
+        <imagen>img/zonas/deathegg.png</imagen>
+    </zona>
+
+    <zona id="z11">
+        <nombre>Eggmanland</nombre>
+        <tipo>Base Eggman</tipo>
+        <alineacion>Villanos</alineacion>
+        <primeraAparicion>j12</primeraAparicion>
+        <descripcion>Gigantesco parque de diversiones y centro industrial del imperio de Eggman.</descripcion>
+        <imagen>img/zonas/eggmanland.png</imagen>
+    </zona>
+
+    <zona id="z12">
+        <nombre>Sky Sanctuary</nombre>
+        <tipo>Ruinas</tipo>
+        <alineacion>Heroes</alineacion>
+        <primeraAparicion>j04</primeraAparicion>
+        <descripcion>Ruinas flotantes conectadas con la historia de los equidnas.</descripcion>
+        <imagen>img/zonas/skysanctuary.png</imagen>
+    </zona>
+
+    <zona id="z13">
+        <nombre>Starfall Islands</nombre>
+        <tipo>Islas Ancestrales</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j18</primeraAparicion>
+        <descripcion>Archipiélago repleto de tecnología ancestral donde transcurre Sonic Frontiers.</descripcion>
+        <imagen>img/zonas/starfallislands.png</imagen>
+    </zona>
+
+    <zona id="z14">
+        <nombre>Crisis City</nombre>
+        <tipo>Futuro</tipo>
+        <alineacion>Neutral</alineacion>
+        <primeraAparicion>j10</primeraAparicion>
+        <descripcion>Versión futura devastada por el fuego y la destrucción temporal.</descripcion>
+        <imagen>img/zonas/crisiscity.png</imagen>
+    </zona>
+
+</zonas>

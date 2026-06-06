@@ -1,0 +1,15 @@
+<!ELEMENT zonas (zona+)>
+
+<!ELEMENT zona
+(nombre,tipo,alineacion,primeraAparicion,descripcion,imagen)>
+
+<!ATTLIST zona
+    id ID #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT alineacion (#PCDATA)>
+<!ELEMENT primeraAparicion (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>

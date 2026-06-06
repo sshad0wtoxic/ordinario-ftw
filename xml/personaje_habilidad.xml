@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE personajes_habilidades SYSTEM "personaje_habilidad.dtd">
+
+<personajes_habilidades>
+
+    <!-- h01 Super Velocidad -->
+    <personaje_habilidad idPersonaje="p01" idHabilidad="h01"/>
+    <personaje_habilidad idPersonaje="p10" idHabilidad="h01"/>
+    <personaje_habilidad idPersonaje="p11" idHabilidad="h01"/>
+    <personaje_habilidad idPersonaje="p18" idHabilidad="h01"/>
+    <personaje_habilidad idPersonaje="p20" idHabilidad="h01"/>
+    <personaje_habilidad idPersonaje="p29" idHabilidad="h01"/>
+
+    <!-- h02 Vuelo -->
+    <personaje_habilidad idPersonaje="p02" idHabilidad="h02"/>
+    <personaje_habilidad idPersonaje="p05" idHabilidad="h02"/>
+    <personaje_habilidad idPersonaje="p14" idHabilidad="h02"/>
+    <personaje_habilidad idPersonaje="p21" idHabilidad="h02"/>
+    <personaje_habilidad idPersonaje="p22" idHabilidad="h02"/>
+    <personaje_habilidad idPersonaje="p24" idHabilidad="h02"/>
+
+    <!-- h03 Fuerza Sobrehumana -->
+    <personaje_habilidad idPersonaje="p03" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p07" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p09" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p13" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p23" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p24" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p31" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p35" idHabilidad="h03"/>
+    <personaje_habilidad idPersonaje="p39" idHabilidad="h03"/>
+
+    <!-- h04 Inteligencia Genial -->
+    <personaje_habilidad idPersonaje="p02" idHabilidad="h04"/>
+    <personaje_habilidad idPersonaje="p22" idHabilidad="h04"/>
+    <personaje_habilidad idPersonaje="p26" idHabilidad="h04"/>
+    <personaje_habilidad idPersonaje="p27" idHabilidad="h04"/>
+
+    <!-- h05 Combate Cuerpo a Cuerpo -->
+    <personaje_habilidad idPersonaje="p03" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p04" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p18" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p20" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p25" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p31" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p34" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p37" idHabilidad="h05"/>
+    <personaje_habilidad idPersonaje="p40" idHabilidad="h05"/>
+
+    <!-- h06 Telequinesis -->
+    <personaje_habilidad idPersonaje="p11" idHabilidad="h06"/>
+
+    <!-- h07 Manipulación del Caos -->
+    <personaje_habilidad idPersonaje="p01" idHabilidad="h07"/>
+    <personaje_habilidad idPersonaje="p12" idHabilidad="h07"/>
+    <personaje_habilidad idPersonaje="p18" idHabilidad="h07"/>
+    <personaje_habilidad idPersonaje="p19" idHabilidad="h07"/>
+    <personaje_habilidad idPersonaje="p28" idHabilidad="h07"/>
+
+    <!-- h08 Sigilo -->
+    <personaje_habilidad idPersonaje="p06" idHabilidad="h08"/>
+    <personaje_habilidad idPersonaje="p21" idHabilidad="h08"/>
+    <personaje_habilidad idPersonaje="p38" idHabilidad="h08"/>
+    <personaje_habilidad idPersonaje="p41" idHabilidad="h08"/>
+
+    <!-- h09 Detectivesco -->
+    <personaje_habilidad idPersonaje="p06" idHabilidad="h09"/>
+    <personaje_habilidad idPersonaje="p07" idHabilidad="h09"/>
+    <personaje_habilidad idPersonaje="p08" idHabilidad="h09"/>
+
+    <!-- h10 Control del Fuego -->
+    <personaje_habilidad idPersonaje="p10" idHabilidad="h10"/>
+
+    <!-- h11 Uso de Martillo -->
+    <personaje_habilidad idPersonaje="p04" idHabilidad="h11"/>
+
+    <!-- h12 Transformación -->
+    <personaje_habilidad idPersonaje="p16" idHabilidad="h12"/>
+    <personaje_habilidad idPersonaje="p19" idHabilidad="h12"/>
+    <personaje_habilidad idPersonaje="p35" idHabilidad="h12"/>
+    <personaje_habilidad idPersonaje="p36" idHabilidad="h12"/>
+
+    <!-- h13 Pilotaje -->
+    <personaje_habilidad idPersonaje="p02" idHabilidad="h13"/>
+    <personaje_habilidad idPersonaje="p15" idHabilidad="h13"/>
+
+    <!-- h14 Tecnología Avanzada -->
+    <personaje_habilidad idPersonaje="p24" idHabilidad="h14"/>
+    <personaje_habilidad idPersonaje="p26" idHabilidad="h14"/>
+    <personaje_habilidad idPersonaje="p27" idHabilidad="h14"/>
+    <personaje_habilidad idPersonaje="p29" idHabilidad="h14"/>
+    <personaje_habilidad idPersonaje="p32" idHabilidad="h14"/>
+    <personaje_habilidad idPersonaje="p33" idHabilidad="h14"/>
+
+    <!-- h15 Disparo de Energía -->
+    <personaje_habilidad idPersonaje="p17" idHabilidad="h15"/>
+    <personaje_habilidad idPersonaje="p24" idHabilidad="h15"/>
+    <personaje_habilidad idPersonaje="p29" idHabilidad="h15"/>
+
+    <!-- h16 Manipulación Temporal -->
+    <personaje_habilidad idPersonaje="p28" idHabilidad="h16"/>
+
+    <!-- h17 Manipulación de Ilusiones -->
+    <personaje_habilidad idPersonaje="p30" idHabilidad="h17"/>
+
+    <!-- h18 Liderazgo -->
+    <personaje_habilidad idPersonaje="p01" idHabilidad="h18"/>
+    <personaje_habilidad idPersonaje="p07" idHabilidad="h18"/>
+    <personaje_habilidad idPersonaje="p20" idHabilidad="h18"/>
+    <personaje_habilidad idPersonaje="p27" idHabilidad="h18"/>
+    <personaje_habilidad idPersonaje="p31" idHabilidad="h18"/>
+
+    <!-- h19 Poder Cósmico -->
+    <personaje_habilidad idPersonaje="p36" idHabilidad="h19"/>
+
+    <!-- h20 Control del Agua -->
+    <personaje_habilidad idPersonaje="p19" idHabilidad="h20"/>
+
+</personajes_habilidades>

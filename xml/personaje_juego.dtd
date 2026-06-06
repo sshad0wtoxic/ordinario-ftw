@@ -1,0 +1,8 @@
+<!ELEMENT personajes_juegos (personaje_juego+)>
+
+<!ELEMENT personaje_juego EMPTY>
+
+<!ATTLIST personaje_juego
+    idPersonaje CDATA #REQUIRED
+    idJuego CDATA #REQUIRED
+>

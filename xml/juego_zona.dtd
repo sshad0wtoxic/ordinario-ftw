@@ -1,0 +1,8 @@
+<!ELEMENT juegos_zonas (juego_zona+)>
+
+<!ELEMENT juego_zona EMPTY>
+
+<!ATTLIST juego_zona
+    idJuego CDATA #REQUIRED
+    idZona CDATA #REQUIRED
+>
