@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Personaje</title>
+</head>
+<body>
+
+    <a href="personajes.html">← Volver a personajes</a>
+
+    <hr>
+
+    <div id="detallePersonaje">
+
+        <!-- Descripciín básica del personaje -->
+        <h1 id="nombre"></h1>
+
+        <img id="imagen" width="250">
+
+        <p><i><span id="descripcion"></i></span></p>
+        <p><strong>Alineación:</strong> <span id="alineacion"></span></p>
+        <p><strong>Especie:</strong> <span id="especie"></span></p>
+        <p><strong>Género:</strong> <span id="genero"></span></p>
+        <p><strong>Juego debut:</strong> <span id="juegoDebut"></span></p>
+
+        <hr> 
+
+        <!--Estadísticas del personaje-->
+        <h2>Estadísticas</h2>
+
+        <p>
+            Velocidad: <span id="valorVelocidad"></span>
+        </p>
+        <progress id="velocidad" max="100"></progress>
+
+        <p>
+            Fuerza: <span id="valorFuerza"></span>
+        </p>
+        <progress id="fuerza" max="100"></progress>
+
+        <p>
+            Inteligencia: <span id="valorInteligencia"></span>
+        </p>
+        <progress id="inteligencia" max="100"></progress>
+
+        <!--Habilidades del personaje-->
+        <hr>
+
+        <h2>Habilidades</h2>
+
+        <ul id="listaHabilidades"></ul>
+
+        <!--Juegos en los que aparece-->
+        <hr>
+
+        <h2>Juegos destacados</h2>
+
+        <ul id="listaJuegos"></ul>
+
+        <!--Zonas relacionadas al personaje-->
+        <hr>
+        
+        <h2>Zonas relacionadas</h2>
+
+        <ul id="listaZonas"></ul>
+
+
+
+    </div>
+
+    <script src="js/modulos/xmlReader.js"></script>
+    <script src="js/modulos/personajeManager.js"></script>
+    <script src="js/modulos/habilidadManager.js"></script>
+    <script src="js/modulos/juegoManager.js"></script>
+    <script src="js/modulos/zonasManager.js"></script>
+    <script src="js/detallePersonaje.js"></script>
+
+</body>
+</html>
