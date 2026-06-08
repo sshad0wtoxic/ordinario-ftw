@@ -3,41 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>Comparador</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
-    <a href="index.html">
-    <img
-        src="img/sonicinicio.png"
-        alt="Pagina principal"
-        width="70"
-    >
-    </a>
-    <hr>
-    
-    <h1>Comparador de Personajes</h1>
+    <header>
+        <a href="index.html">
+            <img
+                src="img/logos/sonicinicio.png"
+                alt="Sonic"
+                width="80"
+            >
+        </a>
+    </header>
 
-    <p>Personaje 1</p>
+    <main>
 
-    <select id="personaje1">
-    </select>
+        <h1>Comparador de Personajes</h1>
 
-    <br><br>
+        <div class="comparador-selectores">
 
-    <p>Personaje 2</p>
+            <div>
 
-    <select id="personaje2">
-    </select>
+                <label for="personaje1">
+                    Personaje 1
+                </label>
 
-    <br><br>
+                <select id="personaje1"></select>
 
-    <button onclick="comparar()">
-        Comparar
-    </button>
+            </div>
 
-    <hr>
+            <div>
 
-    <div id="resultado"></div>
+                <label for="personaje2">
+                    Personaje 2
+                </label>
+
+                <select id="personaje2"></select>
+
+            </div>
+
+        </div>
+
+        <button onclick="comparar()">
+            Comparar
+        </button>
+
+        <hr>
+
+        <div id="resultado"></div>
+
+    </main>
 
     <script src="js/modulos/xmlReader.js"></script>
     <script src="js/modulos/personajeManager.js"></script>

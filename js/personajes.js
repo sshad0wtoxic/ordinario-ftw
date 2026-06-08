@@ -39,19 +39,18 @@ function mostrarPersonajes(personajes) {
     personajes.forEach(personaje => {
 
         const card = document.createElement("div");
-
+        card.classList.add("card");
         card.innerHTML = `
             <img src="${personaje.imagen}" width="120">
 
             <h3>${personaje.nombre}</h3>
 
             <p>${personaje.alineacion}</p>
+            <br>
 
             <button onclick="verDetalle('${personaje.id}')">
                 Ver detalles
             </button>
-
-            <hr>
         `;
 
         contenedor.appendChild(card);

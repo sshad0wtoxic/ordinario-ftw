@@ -4,33 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles de la habilidad</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <a href="index.html">
-    <img
-        src="img/sonicinicio.png"
-        alt="Pagina principal"
-        width="70"
-    >
-    </a>
-    <hr>
+    <header>
+        <a href="index.html">
+            <img
+            src="img/logos/sonicinicio.png"
+            alt="Sonic"
+            width="80"
+            >
+        </a>
+    </header>
 
-    <a href="habilidades.html">← Volver a las habilidades</a>
+    <main>
+        <a href="habilidades.html">← Volver a habilidades</a>
+        <div class="ficha-detalle">
 
-    <h1 id="nombre"></h1>
+            <div class="ficha-info">
 
-    <p><b>Tipo:</b> <span id="tipo"></span></p>
+                <h1 id="nombre"></h1>
 
-    <p id="descripcion"></p>
+                <p>
 
-    <hr>
+                    <strong>Tipo:</strong>
 
-    <h2>Personajes relacionados</h2>
+                    <span id="tipo"></span>
 
-    <ul id="listaPersonajes"></ul>
+                </p>
 
-    <script src="js/modulos/xmlReader.js"></script>
-    <script src="js/modulos/habilidadManager.js"></script>
-    <script src="js/detalleHabilidad.js"></script>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h2>Descripción</h2>
+
+        <p id="descripcion"></p>
+
+        <h2>Personajes relacionados</h2>
+
+        <ul id="listaPersonajes"></ul>
+
+        <script src="js/modulos/xmlReader.js"></script>
+        <script src="js/modulos/habilidadManager.js"></script>
+        <script src="js/detalleHabilidad.js"></script>
+    </main>
 </body>
 </html>

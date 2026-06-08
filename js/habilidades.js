@@ -25,17 +25,19 @@ function mostrarHabilidades(habilidades) {
     habilidades.forEach(habilidad => {
 
         const card = document.createElement("div");
+        card.classList.add("card");
         card.innerHTML = `
 
             <h3>${habilidad.nombre}</h3>
+            <br>
 
             <p>${habilidad.tipo}</p>
+            <br>
 
             <button onclick="verDetalle('${habilidad.id}')">
                 Ver detalles
             </button>
 
-            <hr>
         `;
 
         contenedor.appendChild(card);

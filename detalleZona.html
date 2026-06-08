@@ -4,46 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalles de la zona</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <a href="index.html">
-    <img
-        src="img/sonicinicio.png"
-        alt="Pagina principal"
-        width="70"
-    >
-    </a>
-    <hr>
+
+    <header>
+        <a href="index.html">
+            <img
+            src="img/logos/sonicinicio.png"
+            alt="Sonic"
+            width="80"
+            >
+        </a>
+    </header>
     
+    <main>
     <a href="zonas.html">← Volver a zonas</a>
 
-    <h1 id="nombre"></h1>
+    <div class="ficha-detalle">
 
-    <img id="imagen" width="250">
+        <div class="ficha-imagen">
 
-    <p><b>Tipo:</b> <span id="tipo"></span></p>
+            <img id="imagen">
 
-    <p><b>Alineación:</b> <span id="alineacion"></span></p>
+        </div>
 
-    <p>
-        <b>Primera aparición:</b>
-        <span id="primeraAparicion"></span>
-    </p>
+        <div class="ficha-info">
+
+            <h1 id="nombre"></h1>
+
+            <p>
+                <b>Tipo:</b>
+                <span id="tipo"></span>
+            </p>
+
+            <p>
+                <b>Alineación:</b>
+                <span id="alineacion"></span>
+            </p>
+
+            <p>
+                <b>Primera aparición:</b>
+                <span id="primeraAparicion"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h2>Descripción</h2>
 
     <p id="descripcion"></p>
+        <hr>
 
-    <hr>
+        <h2>Personajes relacionados</h2>
+        <ul id="listaPersonajes"></ul>
 
-    <h2>Personajes relacionados</h2>
-    <ul id="listaPersonajes"></ul>
+        <hr>
 
-    <hr>
-
-    <h2>Juegos relacionados</h2>
-    <ul id="listaJuegos"></ul>
+        <h2>Juegos relacionados</h2>
+        <ul id="listaJuegos"></ul>
 
     <script src="js/modulos/xmlReader.js"></script>
     <script src="js/modulos/zonasManager.js"></script>
+    <script src="js/modulos/juegoManager.js"></script>
     <script src="js/detalleZona.js"></script>
+    </main>
 </body>
 </html>

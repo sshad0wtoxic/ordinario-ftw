@@ -4,33 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalle del Juego</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
-    <a href="index.html">
-    <img
-        src="img/sonicinicio.png"
-        alt="Pagina principal"
-        width="70"
-    >
-    </a>
-    <hr>
-    
+    <header>
+        <a href="index.html">
+            <img
+            src="img/logos/sonicinicio.png"
+            alt="Sonic"
+            width="80"
+            >
+        </a>
+    </header>
+
+    <main>
     <a href="juegos.html">← Volver a juegos</a>
+    <div class="ficha-detalle">
 
-    <h1 id="nombre"></h1>
+        <div class="ficha-imagen">
 
-    <img id="imagen" width="250">
+            <img id="imagen">
 
-    <i><p id="descripcion"></p><i></p>
+        </div>
 
-    <p><b>Año:</b> <span id="anio"></span></p>
+        <div class="ficha-info">
 
-    <p><b>Tipo:</b> <span id="tipo"></span></p>
+            <h1 id="nombre"></h1>
 
-    <p><b>Era:</b> <span id="era"></span></p>
+            <p>
+                <strong>Año:</strong>
+                <span id="anio"></span>
+            </p>
 
-    <p><b>Plataforma:</b> <span id="plataforma"></span></p>
+            <p>
+                <strong>Tipo:</strong>
+                <span id="tipo"></span>
+            </p>
+
+            <p>
+                <strong>Era:</strong>
+                <span id="era"></span>
+            </p>
+
+            <p>
+                <strong>Plataforma:</strong>
+                <span id="plataforma"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h2>Descripción</h2>
+
+    <p id="descripcion"></p>
 
 
     <hr>
@@ -46,5 +76,6 @@
     <script src="js/modulos/xmlReader.js"></script>
     <script src="js/modulos/juegoManager.js"></script>
     <script src="js/detalleJuego.js"></script>
+    </main>
 </body>
 </html>

@@ -3,36 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Detalle de Personaje</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <a href="index.html">
-    <img
-        src="img/sonicinicio.png"
-        alt="Pagina principal"
-        width="70"
-    >
-    </a>
-    <hr>
-    
+    <header>
+        <a href="index.html">
+            <img
+            src="img/logos/sonicinicio.png"
+            alt="Sonic"
+            width="80"
+            >
+        </a>
+    </header>
+
+    <main>
     <a href="personajes.html">← Volver a personajes</a>
+    <br>
+        <div class="ficha-detalle">
 
-    <hr>
+        <div class="ficha-imagen">
 
-    <div id="detallePersonaje">
+            <img id="imagen">
 
-        <!-- Descripciín básica del personaje -->
-        <h1 id="nombre"></h1>
+        </div>
 
-        <img id="imagen" width="250">
+        <div class="ficha-info">
 
-        <p><i><span id="descripcion"></i></span></p>
-        <p><strong>Alineación:</strong> <span id="alineacion"></span></p>
-        <p><strong>Especie:</strong> <span id="especie"></span></p>
-        <p><strong>Género:</strong> <span id="genero"></span></p>
-        <p><strong>Juego debut:</strong> <span id="juegoDebut"></span></p>
+            <h1 id="nombre"></h1>
 
-        <hr> 
+            <p>
+                <strong>Alineación:</strong>
+                <span id="alineacion"></span>
+            </p>
 
+            <p>
+                <strong>Especie:</strong>
+                <span id="especie"></span>
+            </p>
+
+            <p>
+                <strong>Género:</strong>
+                <span id="genero"></span>
+            </p>
+
+            <p>
+                <strong>Juego debut:</strong>
+                <span id="juegoDebut"></span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <h2>Descripción</h2>
+    <p id="descripcion"></p>
+
+    <div class="estadisticas">
         <!--Estadísticas del personaje-->
         <h2>Estadísticas</h2>
 
@@ -50,6 +76,8 @@
             Inteligencia: <span id="valorInteligencia"></span>
         </p>
         <progress id="inteligencia" max="100"></progress>
+
+    </div>
 
         <!--Habilidades del personaje-->
         <hr>
@@ -82,6 +110,6 @@
     <script src="js/modulos/juegoManager.js"></script>
     <script src="js/modulos/zonasManager.js"></script>
     <script src="js/detallePersonaje.js"></script>
-
+</main>
 </body>
 </html>

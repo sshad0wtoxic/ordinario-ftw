@@ -119,87 +119,117 @@ function mostrarComparacion(personaje1, personaje2) {
 
     document.getElementById("resultado").innerHTML = `
 
-    <div>
+    <div class="duelo">
 
-        <img src="${imagen1}"width="200">
-        <h2>${nombre1}</h2>
+        <div class="competidor">
+
+            <img src="${imagen1}" width="200">
+
+            <h2>${nombre1}</h2>
+
+        </div>
+
+        <div class="vs">
+
+            VS
+
+        </div>
+
+        <div class="competidor">
+
+            <img src="${imagen2}" width="200">
+
+            <h2>${nombre2}</h2>
+
+        </div>
 
     </div>
 
-    <div>
+    <div class="card">
 
-        <img src="${imagen2}" width="200">
-        <h2>${nombre2}</h2>
+        <h3>🏃 Velocidad</h3>
+
+        <p>
+            ${nombre1}
+            <progress value="${velocidad1}" max="100"></progress>
+            ${velocidad1}
+        </p>
+
+        <p>
+            ${nombre2}
+            <progress value="${velocidad2}" max="100"></progress>
+            ${velocidad2}
+        </p>
+
+        <p>
+            🏆 Ganador: ${ganadorVelocidad}
+        </p>
 
     </div>
 
-    <hr>
+    <div class="card">
 
-    <h3>Velocidad</h3>
+        <h3>💪 Fuerza</h3>
 
-    ${nombre1}
-    <progress value="${velocidad1}" max="100"></progress>
-    ${velocidad1}
+        <p>
+            ${nombre1}
+            <progress value="${fuerza1}" max="100"></progress>
+            ${fuerza1}
+        </p>
 
-    <br><br>
+        <p>
+            ${nombre2}
+            <progress value="${fuerza2}" max="100"></progress>
+            ${fuerza2}
+        </p>
 
-    ${nombre2}
-    <progress value="${velocidad2}" max="100"></progress>
-    ${velocidad2}
+        <p>
+            🏆 Ganador: ${ganadorFuerza}
+        </p>
 
-    <p>
-        🏆 Ganador: ${ganadorVelocidad}
-    </p>
+    </div>
 
-    <hr>
+    <div class="card">
 
-    <h3>Fuerza</h3>
+        <h3>🧠 Inteligencia</h3>
 
-    ${nombre1}
-    <progress value="${fuerza1}" max="100"></progress>
-    ${fuerza1}
+        <p>
+            ${nombre1}
+            <progress value="${inteligencia1}" max="100"></progress>
+            ${inteligencia1}
+        </p>
 
-    <br><br>
+        <p>
+            ${nombre2}
+            <progress value="${inteligencia2}" max="100"></progress>
+            ${inteligencia2}
+        </p>
 
-    ${nombre2}
-    <progress value="${fuerza2}" max="100"></progress>
-    ${fuerza2}
+        <p>
+            🏆 Ganador: ${ganadorInteligencia}
+        </p>
 
-    <p>
-        🏆 Ganador: ${ganadorFuerza}
-    </p>
+    </div>
 
-    <hr>
+    <div class="ganador-general">
 
-    <h3>Inteligencia</h3>
+        <h2>
+            🏆 Ganador General
+        </h2>
 
-    ${nombre1}
-    <progress value="${inteligencia1}" max="100"></progress>
-    ${inteligencia1}
+        <h1>
+            ${ganadorGeneral}
+        </h1>
 
-    <br><br>
+        <p>
+            ${nombre1}: ${puntos1} puntos
+        </p>
 
-    ${nombre2}
-    <progress value="${inteligencia2}" max="100"></progress>
-    ${inteligencia2}
+        <p>
+            ${nombre2}: ${puntos2} puntos
+        </p>
 
-    <p>
-        🏆 Ganador: ${ganadorInteligencia}
-    </p>
+    </div>
 
-    <hr>
-
-    <h2>
-        🏆 Ganador General:
-        ${ganadorGeneral}
-    </h2>
-
-    <p>
-        ${nombre1}: ${puntos1} puntos
-    </p>
-
-    <p>
-        ${nombre2}: ${puntos2} puntos
-    </p>
-`;
+    `;
 }

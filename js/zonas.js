@@ -38,6 +38,7 @@ function mostrarZonas(zonas) {
 
     zonas.forEach(zona => {
         const card = document.createElement("div");
+        card.classList.add("card");
         card.innerHTML = `
 
         <h3>${zona.nombre}</h3>
@@ -50,6 +51,7 @@ function mostrarZonas(zonas) {
         </div>
 
         <p>${zona.tipo}</p>
+        <br>
 
             <button onclick="verDetalle('${zona.id}')">
                 Ver detalles
@@ -57,7 +59,6 @@ function mostrarZonas(zonas) {
 
         </button>
 
-        <hr>
     `;
 
         contenedor.appendChild(card);

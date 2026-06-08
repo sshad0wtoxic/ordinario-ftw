@@ -26,6 +26,7 @@ function mostrarJuegos(juegos) {
 
     juegos.forEach(juego => {
         const card =document.createElement("div");
+        card.classList.add("card");
         card.innerHTML = `
             <h3>${juego.nombre}</h3>
 
@@ -34,14 +35,13 @@ function mostrarJuegos(juegos) {
             </div>
 
             <p>${juego.anio}</p>
+            <br>
 
             <div>
                 <button onclick="verDetalle('${juego.id}')">
                     Ver detalles
                 </button>
             </div>
-
-            <hr>
         `;
 
         contenedor.appendChild(card);

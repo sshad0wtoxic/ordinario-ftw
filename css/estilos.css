@@ -76,13 +76,6 @@ header {
 }
 
 
-header img:first-child {
-
-    position: absolute;
-
-    left: 25px;
-}
-
 .logo-principal {
 
     margin: 0 auto;
