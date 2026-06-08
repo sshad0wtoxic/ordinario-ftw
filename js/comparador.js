@@ -167,6 +167,8 @@ function mostrarComparacion(personaje1, personaje2) {
 
     </div>
 
+    <br>
+
     <div class="card">
 
         <h3>💪 Fuerza</h3>
@@ -188,6 +190,8 @@ function mostrarComparacion(personaje1, personaje2) {
         </p>
 
     </div>
+
+    <br>
 
     <div class="card">
 
