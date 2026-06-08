@@ -27,4 +27,48 @@ class HabilidadManager {
 
         return resultado;
     }
+
+    static async obtenerTodos() {
+    const xml = await XmlReader.leer("xml/habilidades.xml");
+    return xml.getElementsByTagName("habilidad");
+}
+
+static async obtenerPorId(idBuscado) {
+    const habilidades = await this.obtenerTodos();
+    for (let i = 0; i < habilidades.length; i++) {
+
+        if (habilidades[i].getAttribute("id") === idBuscado) {
+            return habilidades[i];
+        }
+    }
+
+    return null;
+    }
+
+    static async obtenerPersonajes(idHabilidad) {
+    const xmlRelaciones = await XmlReader.leer("xml/personaje_habilidad.xml");
+    const xmlPersonajes = await XmlReader.leer("xml/personajes.xml");
+    const relaciones = xmlRelaciones.getElementsByTagName("personaje_habilidad");
+    const personajes = xmlPersonajes.getElementsByTagName("personaje");
+    let ids = [];
+
+    for (let i = 0; i < relaciones.length; i++) {
+
+        if (relaciones[i].getAttribute("idHabilidad") === idHabilidad) {
+            ids.push(relaciones[i].getAttribute("idPersonaje"));
+        }
+    }
+
+    let resultado = [];
+
+    for (let i = 0; i < personajes.length; i++) {
+        const personaje = personajes[i];
+
+        if (ids.includes(personaje.getAttribute("id"))) {
+            resultado.push(personaje);
+        }
+    }
+
+    return resultado;
+    }
 }
